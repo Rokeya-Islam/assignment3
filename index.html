@@ -129,10 +129,42 @@
  
            <!-- deal of the day -->
   <section class="my-24">
-    <h3 class="text-5xl md-12 font-semibold ">Deal Of the day</h3>
-    <p> Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> 
-      Latin literature from 45 BC, making it over 2000 years old.</p>
-      <br> <br> <br>
+    <div class="flex-items-center">
+      <h3 class="text-5xl md-12 font-semibold ">Deal Of the day</h3>
+      <p>
+        Contrary to popular belief, is not simply random text.
+         It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+      </p>
+
+        <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+          <div class="flex flex-col">
+            <span class="countdown font-mono text-5xl">
+              <span style="--value:15;"></span>
+            </span>
+            days
+          </div> 
+          <div class="flex flex-col">
+            <span class="countdown font-mono text-5xl">
+              <span style="--value:10;"></span>
+            </span>
+            hours
+          </div> 
+          <div class="flex flex-col">
+            <span class="countdown font-mono text-5xl">
+              <span style="--value:24;"></span>
+            </span>
+            min
+          </div> 
+          <div class="flex flex-col">
+            <span class="countdown font-mono text-5xl">
+              <span style="--value:13;"></span>
+            </span>
+            sec
+          </div>
+        </div>
+    </div>
+    
+
       <div class="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
 
        
@@ -257,54 +289,106 @@
     <div class="hero min-h-screen" style="background-image: url(/images/banner1.png);">
       <div class="hero-overlay bg-opacity-80"></div>
       <div class="hero-content text-center text-neutral-content">
-        <div class="max-w-md">
+        <!-- <div class="max-w-md">
           <h1 class="mb-5 text-4xl font-extrabold">Meet the team section</h1>
  <p class="mb-3">Contrary to popular belief, is not simply random text.
              It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+</div> -->
+
+<section class="text-white body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-col text-center w-full mb-20">
+      <h1 class="text-3xl font-medium title-font mb-4 text-white">Meet the team section</h1>
+      <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Contrary to popular belief, is not simply random text.
+        It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+    </div>
+    <div class="flex flex-wrap -m-4">
+      <div class="p-4 lg:w-1/4 md:w-1/2">
+        <div class="h-full flex flex-col items-center text-center">
+          
+            <figure class="px-10 pt-10">
+              <img src="/images/member1.png" alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+              <h2 class="card-title">Awlad Hossain</h2>
+              <p>Friuts Expert</p>
+            </div>
+          
+            <span class="inline-flex">
+              <a class="text-white">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                </svg>
+              </a>
+              <a class="ml-2 text-white">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                </svg>
+              </a>
+              <a class="ml-2 text-white">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                </svg>
+              </a>
+            </span>
+          </div>
+
+          <!-- 2nd card -->
+         
+
+
+          <!-- 2nd card end  -->
+
+          
         </div>
+      </div>
+      
+</section>
+
+
       </div>
     </div>
     <div class="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+      <div class="card w-96 bg-base-100 shadow-xl">
+        <figure class="px-10 pt-10">
+          <img src="/images/member1.png" alt="Shoes" class="rounded-xl" />
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title">Awlad Hossain</h2>
+          <p>Friuts Expert</p>
+        </div>
+      </div>
+  
     <div class="card w-96 bg-base-100 shadow-xl">
       <figure class="px-10 pt-10">
-        <img src="/images/member1.png" alt="Shoes" class="rounded-xl" />
+        <img src="/images/member2.png" alt="Shoes" class="rounded-xl" />
       </figure>
       <div class="card-body items-center text-center">
         <h2 class="card-title">Awlad Hossain</h2>
         <p>Friuts Expert</p>
       </div>
     </div>
-
-  <div class="card w-96 bg-base-100 shadow-xl">
-    <figure class="px-10 pt-10">
-      <img src="/images/member2.png" alt="Shoes" class="rounded-xl" />
-    </figure>
-    <div class="card-body items-center text-center">
-      <h2 class="card-title">Awlad Hossain</h2>
-      <p>Friuts Expert</p>
+    <div class="card w-96 bg-base-100 shadow-xl">
+      <figure class="px-10 pt-10">
+        <img src="/images/member3.png" alt="Shoes" class="rounded-xl" />
+      </figure>
+      <div class="card-body items-center text-center">
+        <h2 class="card-title">Awlad Hossain</h2>
+        <p>Friuts Expert</p>
+      </div>
     </div>
-  </div>
-  <div class="card w-96 bg-base-100 shadow-xl">
-    <figure class="px-10 pt-10">
-      <img src="/images/member3.png" alt="Shoes" class="rounded-xl" />
-    </figure>
-    <div class="card-body items-center text-center">
-      <h2 class="card-title">Awlad Hossain</h2>
-      <p>Friuts Expert</p>
+    <div class="card w-96 bg-base-100 shadow-xl">
+      <figure class="px-10 pt-10">
+        <img src="/images/member4.png" alt="Shoes" class="rounded-xl" />
+      </figure>
+      <div class="card-body items-center text-center">
+        <h2 class="card-title">Awlad Hossain</h2>
+        <p>Friuts Expert</p>
+      </div>
     </div>
+  
+  
   </div>
-  <div class="card w-96 bg-base-100 shadow-xl">
-    <figure class="px-10 pt-10">
-      <img src="/images/member4.png" alt="Shoes" class="rounded-xl" />
-    </figure>
-    <div class="card-body items-center text-center">
-      <h2 class="card-title">Awlad Hossain</h2>
-      <p>Friuts Expert</p>
-    </div>
-  </div>
-
-
-</div>
     
 
   </section>
@@ -313,6 +397,12 @@
     <!-- footer section -->
 
     <footer class="footer footer-center p-10 bg-black text-white rounded">
+      <div class="footer-center">
+    
+        <img src="images/logo.png" alt="">
+        <a class=" text-xl text-white">Fruit Burst</a>
+      </div>
+
         <div class="grid grid-flow-col gap-4">
           <a class="link link-hover">home</a> 
           <a class="link link-hover">about us</a> 
